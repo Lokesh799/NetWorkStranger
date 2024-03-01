@@ -3,11 +3,9 @@ import "../App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PropTypes from "prop-types";
-// import Box from "@mui/material/Box";
 import { Box, ThemeProvider } from "@mui/material";
 import Slider from "react-slick";
 import Typography from "@mui/material/Typography";
-import mncimage from "../images/mnc.png";
 import employeeImg from "../images/employee.jpg";
 import Google from "../images/Google.png";
 import info from "../images/info.png";
@@ -118,7 +116,6 @@ function Container() {
         <Typography className="trustedHead">
           Trusted by individuals and teams at the world’s boldest companies
         </Typography>
-        {/* <img className="mncImage" src={mncimage} /> */}
         <div className="slider-container">
           <Slider {...settings}>
             <div>

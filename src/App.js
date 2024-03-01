@@ -3,27 +3,24 @@ import "./App.css";
 import PropTypes from "prop-types";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
-import Typography from "@mui/material/Typography";
 import Header from "./components/Header";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
-import SimpleSlider from './components/Slider'
-
-const drawerWidth = 240;
+import SimpleSlider from "./components/Slider";
 
 function App() {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <Header/>
+      <Header />
       <Box
         className="headingbox"
         component="main"
         style={{ marginTop: "180px", width: "100%" }}
       >
-        <SimpleSlider/>
-      <Container/>
-        <Footer/>
+        <SimpleSlider />
+        <Container />
+        <Footer />
       </Box>
     </Box>
   );
